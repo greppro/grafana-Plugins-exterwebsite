@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "es6"],
+    "declaration": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "paths": {
+      "@grafana/ui": ["node_modules/@grafana/ui"],
+      "@grafana/data": ["node_modules/@grafana/data"],
+      "@grafana/runtime": ["node_modules/@grafana/runtime"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+} 

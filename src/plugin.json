@@ -1,0 +1,24 @@
+{
+  "type": "panel",
+  "name": "External Website",
+  "id": "grafana-external-website-panel",
+  "info": {
+    "description": "Embed external websites in Grafana dashboards",
+    "author": {
+      "name": "Your Name"
+    },
+    "keywords": ["panel", "website", "iframe", "embed"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2024-02-19"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "plugins": []
+  }
+} 

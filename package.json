@@ -1,0 +1,26 @@
+{
+  "name": "grafana-external-website-panel",
+  "version": "1.0.0",
+  "description": "Grafana panel plugin to embed external websites",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Your Name",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "^9.0.0",
+    "@grafana/runtime": "^9.0.0",
+    "@grafana/toolkit": "^9.0.0",
+    "@grafana/ui": "^9.0.0",
+    "@emotion/css": "^11.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "prettier": "^3.5.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
